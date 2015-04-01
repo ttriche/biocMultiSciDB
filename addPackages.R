@@ -1,4 +1,4 @@
-## within a fresh bicoconductor/devel_core Docker image:
+## within a fresh bicoconductor/devel_microarray Docker image:
 
 install.packages("devtools")
 library("devtools")
@@ -8,4 +8,4 @@ biocLite() # pick up any updates to bioc
 
 library(scidb)
 
-
+## obvious PoC: TCGA AML 450k + CNV
